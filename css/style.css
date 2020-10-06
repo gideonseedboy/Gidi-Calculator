@@ -1,0 +1,208 @@
+body{
+		width: 100% auto;
+		border-width: 8px black;
+		border-style: ridge;
+		padding-top: : 8px;
+}
+#main-wrapper{
+		width: 100px auto;
+
+}
+
+header{
+		width: 1280px;
+		display: inline-block;
+		background-color:none;
+		margin-top: 0px;
+}
+
+h1{		
+		width: 400px;
+		text-align: center;
+		font-size: 22px;
+		color: black;
+		font-family: cursive;
+		margin-top: 8px;
+		margin-left: 13px;
+}
+/*
+#$#$#$#$#$#$#$#$#$#$##$#$#$#$##$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$
+#$#$#$#$#$#$#$#$#$#$##$#$#$#$##$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$*/
+
+/*This is a div for instriuctions that the cliuent will follow in order to effective play with the app.*/
+/*
+#$#$#$#$#$#$#$#$#$#$##$#$#$#$##$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$
+#$#$#$#$#$#$#$#$#$#$##$#$#$#$##$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$
+*/
+
+#instruction_Scrn{
+		width: 500px;
+		background-color: #660033;
+		height: 80px;
+		position: absolute;
+		border-radius: 8px;
+		border-width: 0px 4px;
+		border-style: double;
+		border-color: black;
+		top: 10px;
+		left: 412px;
+		padding: 8px;
+}
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+/*This is styling for the Nav where you find the Download options*/
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+.nav_style{
+		width: 260px;
+		position: absolute;
+		top: 22px;
+		left: 972px;
+}
+.nav_style ul {
+		list-style-type: none;
+		padding: 0px;
+		margin: 0px;
+		display: inline-block;
+}
+.nav_style ul li{
+		padding: 4px;
+		margin: 0px, 4px;
+		border: 2px;
+		list-style-type: none;
+		display: inline-block;
+}
+.nav_style ul li a{
+		text-decoration: none;
+		color: black;
+
+}
+.nav_style ul li a:hover{
+		color: #CC3366;		
+}
+
+/*
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+/*All these four Boxes bellow contain headingss (h2) but I have made their displpay to none. */
+h2{ 
+		text-align: center;
+		background-color: black;
+		display: none;
+}
+p{
+		text-align: center;
+		display: inline-block;
+		font-size: 18px;
+		font-style: italic;
+		padding-left: 4px;
+		color: red;
+		margin-bottom: 4px;
+}
+/*
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Here we have styling for the Boxes which Contain the Buttons, the screen , the Forground and Background box
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+*/
+#main-Interface{
+		width: 1200px auto;
+		min-height: auto;
+		display: inline-flex;
+}
+#priorBox{
+		width: 452px;
+		height: 520px; 
+		float: left;	
+		border: 4px ridge black;
+}
+#posteriorBox{
+		width: 452px;
+		height: 520px;
+		border: 4px ridge black;
+		float: right;
+}
+.set-Butns{
+		width: 132px;
+		height: 56px;
+		color: white;
+		background-color: black;
+}
+/*******************??????????&&&&&&&&&&&&^&&&&&&&&&&&&&????????????************************/
+/*******************??????????&&&&&&&&&&&   &&&&&&&$$$&&????????????************************/
+/*******************??????????&&&&&&&&&       &&&&&&&&&&????????????************************/
+/*******************??????????&&&&&&&0uu----uu00&&&&&&&&????????????************************/
+/*******************??????????&&&&&&&&&&&__&&&&&&&&&&&&&????????????************************/
+
+/*Here  now goes my styling for thw app buttons*/
+
+#pad-ButtonBox{
+		width: 400px;
+		height: 500px;
+		display: inline-block;
+		border: 2px ridge black;
+}
+.grid_container{
+
+		display: grid;
+		justify-content: space-evenly;
+		grid-template-columns: 99px 99px 99px 99px;
+		grid-gap: 2px;
+		background-color: #333333;
+		padding: 6px;
+} 
+.grid_container > button {
+		background-color: #339999;
+		padding: 6px, 0;
+		text-align: center;
+		font-size: 20px;		
+}
+.grid_item{
+		/*width: 126px;*/
+		height: 47px;
+		font-weight: 600;
+}
+
+#Butn-18, #Butn-20{
+		background-color: #669933;
+}
+#Butn-1, #Butn-2, #Butn-0{
+		background-color: #336699;
+}
+#Butn-3, #Butn-8, #Butn-13, #Butn-17, #Butn-21, #Butn-25,
+#Butn-29{
+		background-color: #CC0000;
+}
+#Butn-29{
+		background-color: white;
+}
+.loadButton  {
+		width: 400px;
+		height: 40px;
+		background-color: #760123;
+		color: white;
+		font-weight: 700;
+}
+.button_Pad{
+		background: grey;
+}
+button:hover{
+		opacity: 0.5;
+}
+.select-Butns:hover{
+		background-color: #009966;
+}
+#display-screen{
+		width: 396px;
+		height: 100px;
+		padding: 0.5px;
+		margin: 2px;
+		background-color:#bccd95;
+}
+#left-screen, #left-screen{
+		background-color: #339933;
+}
